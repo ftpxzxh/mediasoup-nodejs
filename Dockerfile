@@ -1,4 +1,4 @@
-FROM node:16 AS stage-one
+FROM registry.cn-hangzhou.aliyuncs.com/zhongxh/mediasoup-nodejs:v16
 
 RUN \
 	set -x \
